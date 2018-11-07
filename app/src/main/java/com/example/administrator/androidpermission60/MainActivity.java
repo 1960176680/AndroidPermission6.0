@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         apply = new PermissionApply(this);
-        ImageView img1 = new ImageView(this);
+        ImageView img1 = findViewById(R.id.imageView);
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
